@@ -75,23 +75,7 @@ section {
   padding-right: 24px !important;
   display: none;
 }
-/* #about {
-  background-color: #eaeaea;
-  color: #000000;
-} */
-/* #sponsors {
-  color: #242230;
-  padding: 0;
-  background-color: #ede5d1;
-}
-#schedule {
-  background-color: #f3dcac;
-}
-#faq {
-  background-color: #ffd166;
-    color: #fff;
-    padding: 0 0 16px;
-} */
+
 #about{
   background: #ffffff; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#ffffff, #f3dcac); /* For Safari 5.1 to 6.0 */
@@ -137,8 +121,12 @@ background: -o-linear-gradient(#e34986, #fec0aa); /* For Opera 11.1 to 12.0 */
 background: -moz-linear-gradient(#e34986, #fec0aa); /* For Firefox 3.6 to 15 */
 background: linear-gradient(#e34986, #fec0aa);
 color: #f9f9f9;
-
 }
+
+#footer{
+  color: #f9f9f9;
+  
+  }
 
 
 
@@ -377,10 +365,12 @@ hr {
 }
 .footerright, .footerright h3 {
   text-align: right;
+  color: white;
 }
 @media (max-width: 768px) {
   .footerright, .footerright h3 {
     text-align: left;
+    color: white;
   }
 }
 
