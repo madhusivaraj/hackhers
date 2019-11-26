@@ -232,7 +232,7 @@ a:active, a:focus, a:hover {
   text-decoration: underline;
 }
 input {
-    background-color: #242424;
+    background-color: #242230;
     color: #fff;
     font-weight: 100;
     font-size: 20px;
@@ -262,12 +262,9 @@ input {
 }
 
 /* Navbar */
-.navbar{
+.navbarMenu{
   border-radius: 0;
   height: 80px;
-  background-color: #000000;
-  border-bottom: 1px solid #063268;
-  box-shadow: 0 0 5px 0 #063268;
   margin-bottom: 0;
   text-align: center;
   font-size: 18px;
@@ -275,11 +272,19 @@ input {
   text-transform: lowercase;
   display: none; /* made visible with js*/
 }
+
+.navbarMenu{
+  text-align: center;
+  padding: 0 7rem 0 8rem;
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .navbar {
   padding: 16px 16px 8px 16px;
 }
 .navbar-bg {
-  background-color: #17183b;
+  background-color: #242230;
 }
 .navbar-toggler {
   margin: 0;
