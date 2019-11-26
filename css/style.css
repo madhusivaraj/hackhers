@@ -1,33 +1,5 @@
-/* Fonts */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/helvetica-neue-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Calibre';
-  src: url('../fonts/calibre-semibold-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/calibre-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/calibre-semibold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/calibre-semibold-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700; 
-}
-@font-face {
-  font-family: 'Calibre';
-  src: url('../fonts/calibre-medium-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/calibre-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/calibre-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/calibre-medium-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Calibre';
-  src: url('../fonts/calibre-regular-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/calibre-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/calibre-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/calibre-regular-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 100;
-}
+
+
 
 /* SECTION STYLING */
 body {
@@ -130,7 +102,7 @@ section {
 
 /* TEXT STYLES */
 body {
-  font-family: 'Calibre', Tahoma, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: 400;
   color: #242424;
   background-color: #242230;
@@ -245,7 +217,6 @@ input {
 
 /** Navbar Styles **/
 .navbar li a {
-    /* font-family: 'Helvetica Neue', Arial, sans-serif; */
     font-size: 24px;
     margin: 0;
     line-height: 24px;
@@ -253,11 +224,11 @@ input {
     color: #fff;
 }
 .navbar li a:hover {
-  color: #fcb618;
+  color: #a00a44;
 }
 .nav-pills .nav-link.active {
   background: none;
-  color: #fcb618;
+  color: #a00a44;
 }
 
 /* Navbar */
@@ -265,7 +236,7 @@ input {
   padding: 16px 16px 8px 16px;
 }
 .navbar-bg {
-  background-color: #1aabac;
+  background-color: #fec0aa;
 }
 .navbar-toggler {
   margin: 0;
@@ -313,7 +284,7 @@ input {
 /** CTA Button **/
 .cta {
     display: inline-block;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-size: 18px;    
     line-height: 20px;
     font-weight: 700;
@@ -386,4 +357,57 @@ hr {
 .tr .td {
     width: 100%;
     margin: 0;
+}
+
+
+#faq .row{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#faq .row .half-left, #faq .row .half-right {
+  width: 50%;
+  padding: 0 2.5rem;
+  display: inline-block;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#faq .row .half-left{
+	margin-right: 40px;
+}
+
+#faq .row .half-right{
+	margin-left: -50px;
+}
+
+#faq .faq-box{
+    padding: 2.25rem;
+    margin: 5rem;
+    width: 400px;
+    text-align: left;
+    border: 3px solid #f9f9f9;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    opacity: 0.8;
+
+}
+#faq h4{
+  color: #7186BC;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+
+#faq p {
+    border-top: 2px solid #0C0F3C;
+    padding-top: 20px;
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C0F3C;
 }
