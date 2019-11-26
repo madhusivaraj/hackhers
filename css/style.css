@@ -262,11 +262,24 @@ input {
 }
 
 /* Navbar */
+.navbar{
+  border-radius: 0;
+  height: 80px;
+  background-color: #000000;
+  border-bottom: 1px solid #063268;
+  box-shadow: 0 0 5px 0 #063268;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: lowercase;
+  display: none; /* made visible with js*/
+}
 .navbar {
   padding: 16px 16px 8px 16px;
 }
 .navbar-bg {
-  background-color: #fec0aa;
+  background-color: #17183b;
 }
 .navbar-toggler {
   margin: 0;
