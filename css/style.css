@@ -132,7 +132,7 @@ color: #f9f9f9;
 
 /* TEXT STYLES */
 body {
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #242424;
   background-color: #242230;
@@ -332,7 +332,7 @@ input {
 /** CTA Button **/
 .cta {
     display: inline-block;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;    
     line-height: 20px;
     font-weight: 700;
@@ -414,6 +414,7 @@ hr {
   width: 1024px;
   margin: 0 auto;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 #faq .row .half-left, #faq .row .half-right {
@@ -424,14 +425,17 @@ hr {
   position: relative;
   box-sizing: border-box;
   vertical-align: top;
+  flex-wrap: wrap;
 }
 
 #faq .row .half-left{
-	margin-right: 40px;
+  margin-right: 40px;
+  flex-wrap: wrap;
 }
 
 #faq .row .half-right{
-	margin-left: -50px;
+  margin-left: -50px;
+  flex-wrap: wrap;
 }
 
 #faq .faq-box{
@@ -443,6 +447,7 @@ hr {
     border-radius: 15px;
     background-color: #f9f9f9;
     opacity: 0.8;
+    flex-wrap: wrap;
 
 }
 #faq h4{
