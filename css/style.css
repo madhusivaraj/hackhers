@@ -250,14 +250,14 @@ small, .small, .small li {
 
 
 a:link {
-    color: #fe3c2b;
+    color: #a00a44;
     text-decoration: none;
 }
 a:visited {
-  color: #fe3c2b;
+  color: #a00a44;
 }
 a:active, a:focus, a:hover {
-  color: #F05A2A;
+  color: #750731;
   text-decoration: underline;
 }
 input {
