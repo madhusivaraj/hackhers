@@ -17,15 +17,15 @@ $(window).on("load",function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
 
 	  // Fade in on scroll
-    $("section").each(function() {
-      var objectTop = $(this).offset().top + 100;
+    // $("section").each(function() {
+    //   var objectTop = $(this).offset().top + 100;
       
-      if (objectTop < windowBottom) { // scrolling down
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
-      } else { // scrolling up
-        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
-      }
-    });
+    //   if (objectTop < windowBottom) { // scrolling down
+    //     if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+    //   } else { // scrolling up
+    //     if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+    //   }
+    // });
 
 
     // Add Nav BG color on scroll

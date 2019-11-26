@@ -19,7 +19,7 @@ body {
 }
 section {
     padding: 3rem 2rem 2rem 2rem;
-    opacity: 0;
+    opacity: 1;
 }
 #cover {
     min-height: 100vh;
